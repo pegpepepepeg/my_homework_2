@@ -7,4 +7,4 @@ test:
 	./tests.o
 main:
 	g++ -O3 -I. -o differentiator.o expression.cpp differentiator.cpp
-	./computepi.o
+	./differentiator.o
