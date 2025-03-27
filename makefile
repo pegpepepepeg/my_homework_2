@@ -8,3 +8,5 @@ test:
 main:
 	g++ -O3 -I. -o differentiator.o expression.cpp differentiator.cpp
 	./differentiator.o
+
+
