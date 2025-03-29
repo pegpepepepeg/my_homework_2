@@ -1,5 +1,5 @@
 //Change this text to REAL or COMPLEX to select modes
-#define REAL
+#define COMPLEX
 
 
 #include <iostream>
