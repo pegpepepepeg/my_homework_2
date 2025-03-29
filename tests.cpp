@@ -5,7 +5,7 @@
 #include <cmath>
 #include "expression.hpp"
 
-int Xmain()
+int main()
 {
     Expression<double> x = Expression<double>("x");
     Expression<double> c1 = Expression<double>(1);
