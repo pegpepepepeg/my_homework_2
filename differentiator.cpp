@@ -67,7 +67,7 @@ Expression<evt> parse(std::string str) {
 			if (lexem == "/") {
 				Expression<evt> y = exprstack.top(); exprstack.pop();
 				Expression<evt> x = exprstack.top(); exprstack.pop();
-				exprstack.push(x * y);
+				exprstack.push(x / y);
 				continue;
 			}
 			if (lexem == "^") {
